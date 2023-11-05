@@ -1,0 +1,64 @@
+
+<div class="modal fade" id="payCCR" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h3 class="modal-title text-center">Pay CCR</h3>
+
+                <div style="right: 2%; z-index: 10" class="position-absolute">
+                    <a role="button" class="link-light" data-bs-dismiss="modal">
+                        <i class="fas fa-times align-middle h3 m-0"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <div class="row justify-content-center text-center">
+
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <select name="fate" class="form-select form-custom" id="selectCCRAccount" disabled>
+                                {{#each onlyAccounts}}
+                                    <option value="{{_id}}">{{nameShow}}</option>
+                                {{/each}}
+                            </select>
+                            <label for="selectCCRAccount">Account</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="form-floating mb-3">
+                            <input type="number" step="0.01" class="form-control form-custom" id="inputCCRTotalValue" placeholder="Example" value="" disabled>
+                            <label for="inputCCRTotalValue">Total Value</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="form-floating mb-3 mb-lg-0">
+                            <input type="number" step="0.01" class="form-control form-custom" id="inputCCRPaidValue" placeholder="Example">
+                            <label for="inputCCRPaidValue">Value to Pay</label>
+                            <div class="invalid-tooltip">
+                                Invalid Value.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="form-floating mb-3 mb-lg-0">
+                            <input type="date" class="form-control form-custom" id="inputCCRDate" placeholder="Example">
+                            <label for="inputCCRDate">Date</label>
+                            <div class="invalid-tooltip">
+                                Invalid Date.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3">
+                        <button class="btn btn-light w-100 h-100" id="buttonPayCCR" onclick="payCCR()">Pay</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

@@ -1,0 +1,13 @@
+{{#each allBillsDebtor}}
+    <tr>
+        <td class="fs-custom">{{dateFull}}</td>
+        <td class="info fs-custom">{{info}}</td>
+        <td class="fs-custom {{balance}}">{{value}}</td>
+        <td>
+            <a onclick="prepareToUpdate('{{_id}}')" role="button" data-bs-toggle="modal" data-bs-target="#manageBill"><i class="far fa-edit fs-custom"></i></a>
+        </td>
+        <td>
+            <a onclick="prepareToDelete('{{_id}}')" role="button" data-bs-toggle="modal" data-bs-target="#deleteBillModal"><i class="far fa-trash-alt fs-custom"></i></a>
+        </td>
+    </tr>
+{{/each}}

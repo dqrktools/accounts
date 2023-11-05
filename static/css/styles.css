@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Futura;
+    src: url("../assets/fonts/futura.ttf")
+}
+
+body {
+    font-family: Futura;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.6) 100%), url('../assets/images/back.jpg');
+}
+
+.card-box {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #f8f9fa !important;
+    border-radius: .5rem !important;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-box .card-box-title{
+    color: white;
+    font-size: 1.75rem;
+}
+
+.card-box .card-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);;
+    transition: opacity 0.25s ease;
+    text-align: center;
+}
+
+.card-box .card-box-caption .description-head {
+    font-size: 1.25rem;
+}
+
+.card-box .card-box-caption .description-body {
+    font-size: 1.5rem;
+}
+
+.card-box:hover .card-box-caption {
+    opacity: 1;
+}
+
+.modal .modal-dialog .modal-content {
+	background-color: #000000d9;
+	color: rgb(255, 255, 255);
+	border-color: #ffffff;
+}
+
+.label-custom{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color:white;
+	padding: .75rem .45rem
+}
+
+.form-custom{
+	color:white;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-custom:focus{
+	color:white;
+	background-color: rgba(30, 30, 30, 0.5);
+}
+
+.form-custom:disabled{
+	color:white;
+	background-color: rgba(61, 61, 61, 0.5);
+}
+
+.btn-light:hover{
+    background-color: #d4d7da;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.green, .paid{
+    background-color: rgba(11, 99, 3, 0.251)!important;;
+}
+
+.red, .late{
+    background-color: rgba(99, 3, 3, 0.251)!important;;
+}
+
+.bg-dark-custom{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fs-custom{
+    font-size: .85rem;
+}
+
+@media (min-width: 992px){
+    .fs-custom{
+        font-size: 1rem;
+    }
+}

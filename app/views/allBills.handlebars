@@ -1,0 +1,73 @@
+
+<div class="container-fluid h-100">
+
+    <div class="position-absolute" style="top: 1%; z-index: 10">
+        <input type="checkbox" class="btn-check" id="buttonToggleValues" onclick="toggleValues()">
+        <label class="btn btn-sm btn-outline-light" for="buttonToggleValues"><i class="fas fa-eye"></i></label>
+    </div>
+
+    <div class="row justify-content-center align-items-center text-center h-100">
+
+        <h1 class="text-light my-2 my-lg-0">All Bills</h1>
+
+
+        {{> allBills/allAccountsButton this}}
+
+        {{#each onlyAccounts}}
+
+            {{#if this.show}}
+
+                {{> allBills/accountsButton this}}
+
+            {{/if}}
+
+
+        {{/each}}
+
+        <div class="col-12 col-lg-2 mb-3 mb-lg-0" style="height: 25vh;">
+            <a role="button" class="card-box" onclick="updateValues()">
+
+                <img class="img-fluid" src="assets/images/icons/values.png" alt="">
+                <div class="card-box-caption">
+                    <div class="description-head">
+                        Update
+                    </div>
+                    <div class="description-body">
+                        Values
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        {{> allBills/allAccountsModal}}
+
+        {{#each allAccounts}}
+
+            {{#if this.show}}
+
+                {{> allBills/accountsModal this}}
+
+            {{/if}}
+
+
+        {{/each}}
+
+
+    </div>
+</div>
+
+{{> allBills/manageBillModal}}
+
+{{> allBills/deleteBillModal}}
+
+{{> allBills/payCCRModal}}
+
+{{> allBills/modelWho}}
+
+
+{{#each allDebtors}}
+    <input id="debtorId{{nameShow}}" class="d-none" value={{_id}} disabled>
+{{/each}}
+
+<!-- JS-->
+<script src="js/allBills.js"></script>

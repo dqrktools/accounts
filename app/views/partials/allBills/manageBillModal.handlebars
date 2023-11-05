@@ -1,0 +1,160 @@
+
+<div class="modal fade" id="manageBill" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h3 class="modal-title text-center">Bill</h3>
+
+                <div style="right: 2%; z-index: 10" class="position-absolute">
+                    <a role="button" class="link-light" data-bs-dismiss="modal">
+                        <i class="fas fa-times align-middle h3 m-0"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="row justify-content-center text-center">
+
+                    <input name="_id" id="inputBillId" class="d-none" disabled>
+
+                    <div class="col-lg-4">
+
+                        <div class="form-floating mb-3">
+                            <select name="accountId" class="form-select form-custom" id="selectAccount" disabled>
+                                <option value="" selected>[Select]</option>
+
+                                {{#each onlyAccounts}}
+                                    <option value="{{_id}}">{{nameShow}}</option>
+                                {{/each}}
+
+                            </select>
+                            <label for="selectAccount">Account</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5">
+                        <div class="form-floating mb-3">
+                            <input name="dateInput" type="date" class="form-control form-custom" id="inputDate" placeholder="Example">
+                            <label for="inputDate">Date</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="form-floating mb-3">
+                            <select name="type" class="form-select form-custom" id="selectType">
+                                <option value="debit" selected>Debit</option>
+                                <option value="credit">Credit</option>
+                            </select>
+                            <label for="selectType">Type</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="form-floating mb-3">
+                            <input name="info" type="text" class="form-control form-custom" id="inputInfo" placeholder="Example">
+                            <label for="inputInfo">Info</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="form-floating mb-3">
+                            <select name="fate" class="form-select form-custom" id="selectFate" onchange="changeFate(this.value)">
+                                <option value="" selected>Bill</option>
+
+                                {{#each onlyAccounts}}
+                                    <option value="{{_id}}">{{nameShow}}</option>
+                                {{/each}}
+                            </select>
+                            <label for="selectFate">Fate</label>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 mb-3 d-none">
+                        <button id="inputIsFixed" type="button" class="btn btn-outline-light w-100 h-100" data-bs-toggle="button" autocomplete="off" onclick="toggleIsFixed(this)">isFixed?</button>
+                    </div>
+
+                    <div id="divFixed" class="col-12 row justify-content-center border-top border-bottom border-light py-2 d-none">
+
+                        <div class="col-lg-6">
+                            <div class="form-floating mb-2">
+                                <select name="serviceId" class="form-select form-custom" id="selectServiceId" onchange="changeService(this.value)">
+                                    <option value="" selected>[Select]</option>
+
+                                    {{#each allServices}}
+                                        <option value="{{_id}}">{{nameShow}}</option>
+                                    {{/each}}
+
+                                </select>
+                                <label for="selectServiceId">Service</label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-floating mb-2">
+                                <select name="serviceDueDate" class="form-select form-custom" id="selectFixedDueDate" disabled>
+                                    <option value="" selected>[Select]</option>
+
+                                </select>
+                                <label for="selectFixedDueDate">DueDate</label>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="form-floating">
+                                <textarea name="serviceObs" class="form-control form-custom" id="inputFixedObs" placeholder="Example" disabled></textarea>
+                                <label for="inputFixedObs">Obs</label>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-12 border-top border-bottom border-light divWho">
+                        <div class="row justify-content-center text-center my-2">
+                            <div class="col-lg-6">
+                                <div class="form-floating mb-2 mb-lg-0">
+                                    <select class="form-select form-custom selectWho" id="selectWho">
+                                        <option value="" selected>[Select]</option>
+
+                                        {{#each allDebtors}}
+                                            <option value="{{_id}}">{{nameShow}}</option>
+                                        {{/each}}
+                                    </select>
+                                    <label for="selectWho">Who</label>
+                                </div>
+                            </div>
+                            <div class="col-9 col-lg-4">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control form-custom inputValueWho" id="inputValueWho" step="0.01" placeholder="Example" onchange="changeValueWho()">
+                                    <label for="inputValueWho">Value</label>
+                                </div>
+                            </div>
+                            <div class="col-3 col-lg-2">
+                                <button id="addElementWho" class="btn btn-outline-light w-100 h-100" onclick="addElementWho(this)" data-bs-toggle="tooltip" title="Add Who"><i class="fas fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="newWho" class="row justify-content-center text-center">
+
+                    </div>
+
+                    <div class="col-9 col-lg-8 mt-3">
+                        <div class="form-floating">
+                            <input type="number" class="form-control form-custom" id="inputValueTotal" step="0.01" placeholder="Example" onchange="changeValueTotal()">
+                            <label for="inputValueTotal">Value Total</label>
+                        </div>
+                    </div>
+
+                    <div class="col-3 col-lg-4 mt-3">
+                        <button class="btn btn-light w-100 h-100" id="buttonSave" onclick="saveButton()">Save</button>
+                    </div>
+
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</div>
