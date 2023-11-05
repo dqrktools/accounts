@@ -16,4 +16,3 @@ module.exports = {
         return Debtor.find().lean();
     }
 }
-

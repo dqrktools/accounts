@@ -6,12 +6,16 @@ const _pathCreateOrUpdateBill = '/bill/createOrUpdateBill';
 const _pathDeleteBill = '/bill/deleteBill';
 const _pathRead = '/bill/read';
 
+var liveToast = new bootstrap.Toast(document.getElementById('liveToast'));
+
 let dateNow = new Date();
-dateNow = dateNow.getFullYear() + '-' + ((dateNow.getMonth() < 9) ? '0' + (dateNow.getMonth() + 1) : (dateNow.getMonth() + 1)) + '-' + ((dateNow.getDate() <= 9) ? '0' + dateNow.getDate() : dateNow.getDate());
+dateNow = 	dateNow.getFullYear() + '-' + 
+			((dateNow.getMonth() < 9) ? '0' + (dateNow.getMonth() + 1) : (dateNow.getMonth() + 1)) + '-' + 
+			((dateNow.getDate() <= 9) ? '0' + dateNow.getDate() : dateNow.getDate());
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-	return new bootstrap.Tooltip(tooltipTriggerEl)
+	return new bootstrap.Tooltip(tooltipTriggerEl);
 })
 
 /*###################################################
@@ -21,7 +25,7 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 async function getData (_path, _id = ''){
     const response = await fetch(_path + '/' + _id);
 
-    return response.json()
+    return response.json();
 }
 
 async function postData (_path, _data){
@@ -53,33 +57,47 @@ function changeDebtor(){
 			$('#tableBills').html(res.tableBills);
 	
 			$('.divToShow').removeClass('d-none');
+
+			$('#toastError').hide();
+			$('#toastSuccess').show();
+			liveToast.show();
 			
 		}).catch(err => {
 			console.log('------------------\n---> Error <---\n------------------\n' + err);
+			
+			$('#toastError').show();
+			$('#toastSuccess').hide();
+			liveToast.show();
 		})
 	}
 }
 
 $("#buttonNew").click(() => {
 	resetModalCreateUpdate();
-	$('#manageBillTitle').text('New Bill')
+	$('#manageBillTitle').text('New Bill');
 });
 
 function prepareToUpdate(_id) {
 	resetModalCreateUpdate();
-	$('#manageBillTitle').text('Update Bill')
-
+	$('#manageBillTitle').text('Update Bill');
 
 	getData(_pathRead, _id).then(res => {
 		$('#inputBillId').val(res._id);
 		$('#inputDateInput').val(res.dateInput);
 		$('#inputValue').val(res.value);
 		$('#inputInfo').val(res.info);
+
+		$('#toastError').hide();
+		$('#toastSuccess').show();
+		liveToast.show();
 		
     }).catch(err => {
         console.log('------------------\n---> Error <---\n------------------\n' + err);
-    })
 
+		$('#toastError').show();
+		$('#toastSuccess').hide();
+		liveToast.show();
+    })
 }
 	
 function resetModalCreateUpdate(){
@@ -97,20 +115,32 @@ function saveButton(){
 		dateInput: $('#inputDateInput').val(),
 		value: $('#inputValue').val(),
 		info: $('#inputInfo').val()
-	}
+	};
 
 	postData(_pathCreateOrUpdateBill, dataToSend)
 	.then(res => {
 		if(res.isOK){
 			resetModalCreateUpdate();
 			changeDebtor();
+			
+			$('#toastError').hide();
+			$('#toastSuccess').show();
 		}
 		else{
-			console.log('##########Erro')
+			resetModalCreateUpdate();
+
+			$('#toastError').show();
+			$('#toastSuccess').hide();
 		}
+
+		liveToast.show();
 	})
 	.catch(err => {
-		console.log('------------------\n---> Error <---\n------------------\n' + err)
+		console.log('------------------\n---> Error <---\n------------------\n' + err);
+		
+		$('#toastError').show();
+		$('#toastSuccess').hide();
+		liveToast.show();
 	})
 }
 
@@ -129,13 +159,25 @@ function deleteBill() {
 		if(res.isOK){
 			$('#inputBillIdDelete').val('');
 			changeDebtor();
+			
+			$('#toastError').hide();
+			$('#toastSuccess').show();
 		}
 		else{
-			console.log('##########Erro')
+			$('#inputBillIdDelete').val('');
+
+			$('#toastError').show();
+			$('#toastSuccess').hide();
 		}
+		
+		liveToast.show();
 	})
 	.catch(err => {
-		console.log('------------------\n---> Error <---\n------------------\n' + err)
+		console.log('------------------\n---> Error <---\n------------------\n' + err);
+		
+		$('#toastError').show();
+		$('#toastSuccess').hide();
+		liveToast.show();
 	})
 }
 
@@ -144,13 +186,21 @@ function toggleUpdateValues(){
 
 	getData(_pathUpdateValues).then(res => {
 		if(res.isOK){
-			console.log('OK');
+			$('#toastError').hide();
+			$('#toastSuccess').show();
 		}
 		else{
-			console.log('##########Erro');
+			$('#toastError').show();
+			$('#toastSuccess').hide();
 		}
+
+		liveToast.show();
 		
     }).catch(err => {
         console.log('------------------\n---> Error <---\n------------------\n' + err);
+		
+		$('#toastError').show();
+		$('#toastSuccess').hide();
+		liveToast.show();
     })
 }

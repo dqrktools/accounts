@@ -5,6 +5,6 @@ module.exports = {
     get: async (req, res) => {
         let allDebtors = await manageDebtor.read();
 
-        res.render('index', {allDebtors})
+        res.render('index', {allDebtors});
     }
 }
