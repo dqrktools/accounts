@@ -65,8 +65,6 @@ const tableValues = Handlebars.compile(
     document.getElementById('tableValuesTemplate').innerHTML
 );
 
-allBills = allBills.sort((a, b) => a.date - b.date);
-
 for (oneBill of allBills) {
     if(oneBill.debtorId == p[0]){
         debtorTotal += oneBill.value;

@@ -52,14 +52,22 @@ function changeDebtor(){
 		resetModalCreateUpdate();
 		
 		getData(_pathReadByDebtor, debtorData.val()).then(res => {
-			$('#debtorTotal').text(res.debtorTotal.toFixed(2));
-			$('#debtorTotal').addClass(res.debtorTotal < 0 ? 'red' : 'green');
-			$('#tableBills').html(res.tableBills);
+			if(res.isOK){
+				$('#debtorTotal').text(res.debtorTotal.toFixed(2));
+				$('#debtorTotal').removeClass();
+				$('#debtorTotal').addClass(res.debtorTotal < 0 ? 'red' : 'green');
+				$('#tableBills').html(res.tableBills);
+		
+				$('.divToShow').removeClass('d-none');
 	
-			$('.divToShow').removeClass('d-none');
-
-			$('#toastError').hide();
-			$('#toastSuccess').show();
+				$('#toastError').hide();
+				$('#toastSuccess').show();
+			}
+			else{
+				$('#toastError').show();
+				$('#toastSuccess').hide();
+			}
+			
 			liveToast.show();
 			
 		}).catch(err => {
@@ -203,4 +211,8 @@ function toggleUpdateValues(){
 		$('#toastSuccess').hide();
 		liveToast.show();
     })
+}
+
+function changePlusMinus(){
+	$('#inputValue').val($('#inputValue').val() * (-1));
 }

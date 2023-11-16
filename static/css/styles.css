@@ -111,6 +111,12 @@ body {
     font-size: .85rem;
 }
 
+.btnPlusMinus:hover, .btnPlusMinus:focus{
+    color:#f8f9fa;
+    border-color:#f8f9fa;
+    background-color: #00000000;
+}
+
 @media (min-width: 992px){
     .fs-custom{
         font-size: 1rem;
