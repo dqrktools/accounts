@@ -17,3 +17,6 @@ app.use(billRouter); /* Adiciona ao middleware a rota /bill */
 app.listen(PORT, () => {
 	console.log( '\n##### -- Server Running: Success\nLink: http://localhost:' + PORT + '\n');
 });
+
+//remove dateShort
+//add static version
