@@ -1,7 +1,7 @@
 var allBills = [
     {
         "_id": "6510790d8f34a3393ee77604",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-01T03:00:00.000Z",
         "dateInput": "2021-01-01",
         "value": -77.72,
@@ -25,7 +25,7 @@ var allBills = [
     },
     {
         "_id": "651079428f34a3393ee779cb",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-01T03:00:00.000Z",
         "dateInput": "2021-01-01",
         "value": -20,
@@ -37,7 +37,7 @@ var allBills = [
     },
     {
         "_id": "651079148f34a3393ee7768b",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-04T03:00:00.000Z",
         "dateInput": "2021-01-04",
         "value": -150.7,
@@ -61,7 +61,7 @@ var allBills = [
     },
     {
         "_id": "6510792a8f34a3393ee77819",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-04T03:00:00.000Z",
         "dateInput": "2021-01-04",
         "value": -150.87,
@@ -73,7 +73,7 @@ var allBills = [
     },
     {
         "_id": "6510790d8f34a3393ee77608",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-05T03:00:00.000Z",
         "dateInput": "2021-01-05",
         "value": -12,
@@ -85,7 +85,7 @@ var allBills = [
     },
     {
         "_id": "651079148f34a3393ee7768d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-05T03:00:00.000Z",
         "dateInput": "2021-01-05",
         "value": -53.99,
@@ -109,7 +109,7 @@ var allBills = [
     },
     {
         "_id": "6510790d8f34a3393ee7760a",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-11T03:00:00.000Z",
         "dateInput": "2021-01-11",
         "value": -541.15,
@@ -121,7 +121,7 @@ var allBills = [
     },
     {
         "_id": "6510792b8f34a3393ee77825",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-11T03:00:00.000Z",
         "dateInput": "2021-01-11",
         "value": -541.15,
@@ -133,7 +133,7 @@ var allBills = [
     },
     {
         "_id": "6510790e8f34a3393ee7760c",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-12T03:00:00.000Z",
         "dateInput": "2021-01-12",
         "value": -540.99,
@@ -145,7 +145,7 @@ var allBills = [
     },
     {
         "_id": "651079218f34a3393ee7776d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-01-12T03:00:00.000Z",
         "dateInput": "2021-01-12",
         "value": 2000,
@@ -229,7 +229,7 @@ var allBills = [
     },
     {
         "_id": "651079158f34a3393ee7769d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-02-08T03:00:00.000Z",
         "dateInput": "2021-02-08",
         "value": -12,
@@ -241,7 +241,7 @@ var allBills = [
     },
     {
         "_id": "651079288f34a3393ee777f9",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-02-08T03:00:00.000Z",
         "dateInput": "2021-02-08",
         "value": -80,
@@ -289,7 +289,7 @@ var allBills = [
     },
     {
         "_id": "6510792c8f34a3393ee77845",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-02-15T03:00:00.000Z",
         "dateInput": "2021-02-15",
         "value": -650,
@@ -349,7 +349,7 @@ var allBills = [
     },
     {
         "_id": "651079428f34a3393ee779d3",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-02-27T03:00:00.000Z",
         "dateInput": "2021-02-27",
         "value": 190,
@@ -397,7 +397,7 @@ var allBills = [
     },
     {
         "_id": "651079298f34a3393ee7780f",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-03-09T03:00:00.000Z",
         "dateInput": "2021-03-09",
         "value": -100.23,
@@ -433,7 +433,7 @@ var allBills = [
     },
     {
         "_id": "6510790f8f34a3393ee7762d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-03-11T03:00:00.000Z",
         "dateInput": "2021-03-11",
         "value": -150,
@@ -565,7 +565,7 @@ var allBills = [
     },
     {
         "_id": "651079108f34a3393ee77639",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-04-08T03:00:00.000Z",
         "dateInput": "2021-04-08",
         "value": -12,
@@ -613,7 +613,7 @@ var allBills = [
     },
     {
         "_id": "6510793b8f34a3393ee77953",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-04-10T03:00:00.000Z",
         "dateInput": "2021-04-10",
         "value": 400,
@@ -637,7 +637,7 @@ var allBills = [
     },
     {
         "_id": "651079168f34a3393ee776ad",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-04-12T03:00:00.000Z",
         "dateInput": "2021-04-12",
         "value": -200,
@@ -649,7 +649,7 @@ var allBills = [
     },
     {
         "_id": "651079308f34a3393ee7788d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-04-18T03:00:00.000Z",
         "dateInput": "2021-04-18",
         "value": -150.87,
@@ -757,7 +757,7 @@ var allBills = [
     },
     {
         "_id": "6510792d8f34a3393ee7784b",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-05-10T03:00:00.000Z",
         "dateInput": "2021-05-10",
         "value": -150.87,
@@ -769,7 +769,7 @@ var allBills = [
     },
     {
         "_id": "6510792d8f34a3393ee7784f",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-05-10T03:00:00.000Z",
         "dateInput": "2021-05-10",
         "value": -84.04,
@@ -781,7 +781,7 @@ var allBills = [
     },
     {
         "_id": "651079328f34a3393ee778ad",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-05-10T03:00:00.000Z",
         "dateInput": "2021-05-10",
         "value": -12,
@@ -793,7 +793,7 @@ var allBills = [
     },
     {
         "_id": "651079218f34a3393ee77771",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-05-11T03:00:00.000Z",
         "dateInput": "2021-05-11",
         "value": 250,
@@ -841,7 +841,7 @@ var allBills = [
     },
     {
         "_id": "651079328f34a3393ee778b1",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-05-16T03:00:00.000Z",
         "dateInput": "2021-05-16",
         "value": -910,
@@ -901,7 +901,7 @@ var allBills = [
     },
     {
         "_id": "651079428f34a3393ee779d9",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-06-02T03:00:00.000Z",
         "dateInput": "2021-06-02",
         "value": 500,
@@ -949,7 +949,7 @@ var allBills = [
     },
     {
         "_id": "651079118f34a3393ee77653",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-06-09T03:00:00.000Z",
         "dateInput": "2021-06-09",
         "value": -12,
@@ -961,7 +961,7 @@ var allBills = [
     },
     {
         "_id": "651079338f34a3393ee778bd",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-06-09T03:00:00.000Z",
         "dateInput": "2021-06-09",
         "value": -94.18,
@@ -997,7 +997,7 @@ var allBills = [
     },
     {
         "_id": "651079268f34a3393ee777cd",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-06-12T03:00:00.000Z",
         "dateInput": "2021-06-12",
         "value": 800,
@@ -1021,7 +1021,7 @@ var allBills = [
     },
     {
         "_id": "651079118f34a3393ee77655",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-06-14T03:00:00.000Z",
         "dateInput": "2021-06-14",
         "value": -77.91,
@@ -1033,7 +1033,7 @@ var allBills = [
     },
     {
         "_id": "6510792f8f34a3393ee77873",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-06-14T03:00:00.000Z",
         "dateInput": "2021-06-14",
         "value": -554,
@@ -1045,7 +1045,7 @@ var allBills = [
     },
     {
         "_id": "651079338f34a3393ee778c5",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-06-21T03:00:00.000Z",
         "dateInput": "2021-06-21",
         "value": -150.87,
@@ -1165,7 +1165,7 @@ var allBills = [
     },
     {
         "_id": "651079188f34a3393ee776d3",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-07-08T03:00:00.000Z",
         "dateInput": "2021-07-08",
         "value": -595.97,
@@ -1177,7 +1177,7 @@ var allBills = [
     },
     {
         "_id": "651079128f34a3393ee77665",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-07-10T03:00:00.000Z",
         "dateInput": "2021-07-10",
         "value": -150.87,
@@ -1213,7 +1213,7 @@ var allBills = [
     },
     {
         "_id": "651079268f34a3393ee777d5",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-07-10T03:00:00.000Z",
         "dateInput": "2021-07-10",
         "value": 900,
@@ -1225,7 +1225,7 @@ var allBills = [
     },
     {
         "_id": "651079308f34a3393ee77883",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-07-10T03:00:00.000Z",
         "dateInput": "2021-07-10",
         "value": -12,
@@ -1333,7 +1333,7 @@ var allBills = [
     },
     {
         "_id": "651079268f34a3393ee777d7",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-07T03:00:00.000Z",
         "dateInput": "2021-08-07",
         "value": 800,
@@ -1345,7 +1345,7 @@ var allBills = [
     },
     {
         "_id": "651079308f34a3393ee77887",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-07T03:00:00.000Z",
         "dateInput": "2021-08-07",
         "value": -12,
@@ -1369,7 +1369,7 @@ var allBills = [
     },
     {
         "_id": "651079138f34a3393ee7766d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-09T03:00:00.000Z",
         "dateInput": "2021-08-09",
         "value": -150.87,
@@ -1381,7 +1381,7 @@ var allBills = [
     },
     {
         "_id": "651079348f34a3393ee778d9",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-09T03:00:00.000Z",
         "dateInput": "2021-08-09",
         "value": -596.91,
@@ -1405,7 +1405,7 @@ var allBills = [
     },
     {
         "_id": "651079438f34a3393ee779e5",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-11T03:00:00.000Z",
         "dateInput": "2021-08-11",
         "value": 175,
@@ -1417,7 +1417,7 @@ var allBills = [
     },
     {
         "_id": "651079618f34a3393ee77c09",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-11T03:00:00.000Z",
         "dateInput": "2021-08-11",
         "value": -86.5,
@@ -1429,7 +1429,7 @@ var allBills = [
     },
     {
         "_id": "651079618f34a3393ee77c0b",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-11T03:00:00.000Z",
         "dateInput": "2021-08-11",
         "value": -86.5,
@@ -1441,7 +1441,7 @@ var allBills = [
     },
     {
         "_id": "6510793c8f34a3393ee7795f",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-14T03:00:00.000Z",
         "dateInput": "2021-08-14",
         "value": 400,
@@ -1465,7 +1465,7 @@ var allBills = [
     },
     {
         "_id": "651079198f34a3393ee776db",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-08-15T03:00:00.000Z",
         "dateInput": "2021-08-15",
         "value": -470,
@@ -1549,7 +1549,7 @@ var allBills = [
     },
     {
         "_id": "651079318f34a3393ee7789f",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-09-09T03:00:00.000Z",
         "dateInput": "2021-09-09",
         "value": -14,
@@ -1561,7 +1561,7 @@ var allBills = [
     },
     {
         "_id": "651079358f34a3393ee778e5",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-09-09T03:00:00.000Z",
         "dateInput": "2021-09-09",
         "value": -602,
@@ -1597,7 +1597,7 @@ var allBills = [
     },
     {
         "_id": "651079148f34a3393ee77681",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-09-10T03:00:00.000Z",
         "dateInput": "2021-09-10",
         "value": -81.86,
@@ -1621,7 +1621,7 @@ var allBills = [
     },
     {
         "_id": "651079358f34a3393ee778ed",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-09-10T03:00:00.000Z",
         "dateInput": "2021-09-10",
         "value": -86.69,
@@ -1633,7 +1633,7 @@ var allBills = [
     },
     {
         "_id": "651079148f34a3393ee77683",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-09-14T03:00:00.000Z",
         "dateInput": "2021-09-14",
         "value": -602.72,
@@ -1645,7 +1645,7 @@ var allBills = [
     },
     {
         "_id": "651079148f34a3393ee77685",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-09-14T03:00:00.000Z",
         "dateInput": "2021-09-14",
         "value": -602.72,
@@ -1657,7 +1657,7 @@ var allBills = [
     },
     {
         "_id": "651079198f34a3393ee776e5",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-09-14T03:00:00.000Z",
         "dateInput": "2021-09-14",
         "value": -554,
@@ -1741,7 +1741,7 @@ var allBills = [
     },
     {
         "_id": "651079278f34a3393ee777db",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-09-24T03:00:00.000Z",
         "dateInput": "2021-09-24",
         "value": 10087.35,
@@ -1837,7 +1837,7 @@ var allBills = [
     },
     {
         "_id": "651079368f34a3393ee778f9",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-10-06T03:00:00.000Z",
         "dateInput": "2021-10-06",
         "value": -150,
@@ -1921,7 +1921,7 @@ var allBills = [
     },
     {
         "_id": "6510791a8f34a3393ee776f7",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-10-10T03:00:00.000Z",
         "dateInput": "2021-10-10",
         "value": -14,
@@ -1945,7 +1945,7 @@ var allBills = [
     },
     {
         "_id": "6510791b8f34a3393ee776ff",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-10-11T03:00:00.000Z",
         "dateInput": "2021-10-11",
         "value": -10000,
@@ -1957,7 +1957,7 @@ var allBills = [
     },
     {
         "_id": "6510791b8f34a3393ee77701",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-10-11T03:00:00.000Z",
         "dateInput": "2021-10-11",
         "value": -20,
@@ -1969,7 +1969,7 @@ var allBills = [
     },
     {
         "_id": "6510794b8f34a3393ee77a7d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-10-11T03:00:00.000Z",
         "dateInput": "2021-10-11",
         "value": -86.5,
@@ -1993,7 +1993,7 @@ var allBills = [
     },
     {
         "_id": "651079228f34a3393ee77789",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-10-17T03:00:00.000Z",
         "dateInput": "2021-10-17",
         "value": -190,
@@ -2041,7 +2041,7 @@ var allBills = [
     },
     {
         "_id": "651079368f34a3393ee778ff",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-10-25T03:00:00.000Z",
         "dateInput": "2021-10-25",
         "value": -20,
@@ -2053,7 +2053,7 @@ var allBills = [
     },
     {
         "_id": "6510793d8f34a3393ee77973",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-10-25T03:00:00.000Z",
         "dateInput": "2021-10-25",
         "value": -20,
@@ -2077,7 +2077,7 @@ var allBills = [
     },
     {
         "_id": "6510793d8f34a3393ee77975",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-11-05T03:00:00.000Z",
         "dateInput": "2021-11-05",
         "value": -240,
@@ -2101,7 +2101,7 @@ var allBills = [
     },
     {
         "_id": "6510791c8f34a3393ee7771f",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-11-08T03:00:00.000Z",
         "dateInput": "2021-11-08",
         "value": -14,
@@ -2113,7 +2113,7 @@ var allBills = [
     },
     {
         "_id": "651079418f34a3393ee779c9",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-11-08T03:00:00.000Z",
         "dateInput": "2021-11-08",
         "value": 3000,
@@ -2137,7 +2137,7 @@ var allBills = [
     },
     {
         "_id": "6510793d8f34a3393ee77979",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-11-09T03:00:00.000Z",
         "dateInput": "2021-11-09",
         "value": -87.45,
@@ -2185,7 +2185,7 @@ var allBills = [
     },
     {
         "_id": "651079378f34a3393ee7790b",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-11-24T03:00:00.000Z",
         "dateInput": "2021-11-24",
         "value": -392,
@@ -2197,7 +2197,7 @@ var allBills = [
     },
     {
         "_id": "6510793e8f34a3393ee77983",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-11-25T03:00:00.000Z",
         "dateInput": "2021-11-25",
         "value": -2500,
@@ -2257,7 +2257,7 @@ var allBills = [
     },
     {
         "_id": "6510793e8f34a3393ee77989",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-11-29T03:00:00.000Z",
         "dateInput": "2021-11-29",
         "value": -69.25,
@@ -2377,7 +2377,7 @@ var allBills = [
     },
     {
         "_id": "651079258f34a3393ee777bd",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-12-20T03:00:00.000Z",
         "dateInput": "2021-12-20",
         "value": -500,
@@ -2389,7 +2389,7 @@ var allBills = [
     },
     {
         "_id": "6510793f8f34a3393ee7799f",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-12-21T03:00:00.000Z",
         "dateInput": "2021-12-21",
         "value": -20,
@@ -2425,7 +2425,7 @@ var allBills = [
     },
     {
         "_id": "651079258f34a3393ee777bf",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-12-22T03:00:00.000Z",
         "dateInput": "2021-12-22",
         "value": -86.67,
@@ -2473,7 +2473,7 @@ var allBills = [
     },
     {
         "_id": "6510793f8f34a3393ee779a3",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-12-22T03:00:00.000Z",
         "dateInput": "2021-12-22",
         "value": -20,
@@ -2485,7 +2485,7 @@ var allBills = [
     },
     {
         "_id": "6510793f8f34a3393ee779a5",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2021-12-22T03:00:00.000Z",
         "dateInput": "2021-12-22",
         "value": -59.9,
@@ -2617,7 +2617,7 @@ var allBills = [
     },
     {
         "_id": "6510796e8f34a3393ee77cfb",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-01-21T03:00:00.000Z",
         "dateInput": "2022-01-21",
         "value": -300,
@@ -2629,7 +2629,7 @@ var allBills = [
     },
     {
         "_id": "6510794c8f34a3393ee77a85",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-01-22T03:00:00.000Z",
         "dateInput": "2022-01-22",
         "value": -30,
@@ -2641,7 +2641,7 @@ var allBills = [
     },
     {
         "_id": "6510794c8f34a3393ee77a87",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-01-22T03:00:00.000Z",
         "dateInput": "2022-01-22",
         "value": -79.9,
@@ -2665,7 +2665,7 @@ var allBills = [
     },
     {
         "_id": "651079628f34a3393ee77c1b",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-01-22T03:00:00.000Z",
         "dateInput": "2022-01-22",
         "value": -590.1,
@@ -2773,7 +2773,7 @@ var allBills = [
     },
     {
         "_id": "651079628f34a3393ee77c21",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-02-04T03:00:00.000Z",
         "dateInput": "2022-02-04",
         "value": -20,
@@ -2797,7 +2797,7 @@ var allBills = [
     },
     {
         "_id": "651079468f34a3393ee77a15",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-02-07T03:00:00.000Z",
         "dateInput": "2022-02-07",
         "value": -185.73,
@@ -2809,7 +2809,7 @@ var allBills = [
     },
     {
         "_id": "6510796f8f34a3393ee77d15",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-02-07T03:00:00.000Z",
         "dateInput": "2022-02-07",
         "value": 190,
@@ -2821,7 +2821,7 @@ var allBills = [
     },
     {
         "_id": "6510794c8f34a3393ee77a91",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-02-08T03:00:00.000Z",
         "dateInput": "2022-02-08",
         "value": -99.56,
@@ -2833,7 +2833,7 @@ var allBills = [
     },
     {
         "_id": "651079638f34a3393ee77c29",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-02-11T03:00:00.000Z",
         "dateInput": "2022-02-11",
         "value": -710,
@@ -2893,7 +2893,7 @@ var allBills = [
     },
     {
         "_id": "651079468f34a3393ee77a1d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-02-21T03:00:00.000Z",
         "dateInput": "2022-02-21",
         "value": 400,
@@ -2905,7 +2905,7 @@ var allBills = [
     },
     {
         "_id": "6510794d8f34a3393ee77a9d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-02-21T03:00:00.000Z",
         "dateInput": "2022-02-21",
         "value": -384.14,
@@ -2989,7 +2989,7 @@ var allBills = [
     },
     {
         "_id": "651079478f34a3393ee77a29",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-03-10T03:00:00.000Z",
         "dateInput": "2022-03-10",
         "value": -927.27,
@@ -3001,7 +3001,7 @@ var allBills = [
     },
     {
         "_id": "651079478f34a3393ee77a2b",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-03-10T03:00:00.000Z",
         "dateInput": "2022-03-10",
         "value": 1180,
@@ -3013,7 +3013,7 @@ var allBills = [
     },
     {
         "_id": "6510794d8f34a3393ee77aa3",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-03-10T03:00:00.000Z",
         "dateInput": "2022-03-10",
         "value": -248.5,
@@ -3169,7 +3169,7 @@ var allBills = [
     },
     {
         "_id": "651079478f34a3393ee77a33",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-03-28T03:00:00.000Z",
         "dateInput": "2022-03-28",
         "value": -169.89,
@@ -3181,7 +3181,7 @@ var allBills = [
     },
     {
         "_id": "6510794e8f34a3393ee77ab3",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-03-28T03:00:00.000Z",
         "dateInput": "2022-03-28",
         "value": -162.07,
@@ -3433,7 +3433,7 @@ var allBills = [
     },
     {
         "_id": "651079668f34a3393ee77c67",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-05-16T03:00:00.000Z",
         "dateInput": "2022-05-16",
         "value": -340,
@@ -3565,7 +3565,7 @@ var allBills = [
     },
     {
         "_id": "6510794a8f34a3393ee77a6b",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2022-06-16T03:00:00.000Z",
         "dateInput": "2022-06-16",
         "value": -1480,
@@ -4441,7 +4441,7 @@ var allBills = [
     },
     {
         "_id": "6510798b8f34a3393ee77f13",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2023-05-05T03:00:00.000Z",
         "dateInput": "2023-05-05",
         "value": 300,
@@ -4561,7 +4561,7 @@ var allBills = [
     },
     {
         "_id": "6510799f8f34a3393ee7807d",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2023-09-04T03:00:00.000Z",
         "dateInput": "2023-09-04",
         "value": 200,
@@ -4921,7 +4921,7 @@ var allBills = [
     },
     {
         "_id": "65989b61ac11349507908231",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2023-12-04T03:00:00.000Z",
         "dateInput": "2023-12-04",
         "dateShort": "04/12/23",
@@ -4969,7 +4969,7 @@ var allBills = [
     },
     {
         "_id": "65989b89ac11349507908234",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2023-12-21T03:00:00.000Z",
         "dateInput": "2023-12-21",
         "dateShort": "21/12/23",
@@ -5161,7 +5161,7 @@ var allBills = [
     },
     {
         "_id": "65dfd4b8748d5783c2c8b201",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2024-02-28T03:00:00.000Z",
         "dateInput": "2024-02-28",
         "dateShort": "28/02/24",
@@ -5245,7 +5245,7 @@ var allBills = [
     },
     {
         "_id": "66169170b3063c6c133e218f",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2024-04-01T03:00:00.000Z",
         "dateInput": "2024-04-01",
         "dateShort": "01/04/24",
@@ -5329,7 +5329,7 @@ var allBills = [
     },
     {
         "_id": "665de53bf93675672c5df5c2",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2024-04-29T03:00:00.000Z",
         "dateInput": "2024-04-29",
         "dateShort": "29/04/24",
@@ -5353,7 +5353,7 @@ var allBills = [
     },
     {
         "_id": "665de4fbf93675672c5df5bf",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2024-05-08T03:00:00.000Z",
         "dateInput": "2024-05-08",
         "dateShort": "08/05/24",
@@ -5401,7 +5401,7 @@ var allBills = [
     },
     {
         "_id": "665de4d3f93675672c5df5bc",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2024-06-03T03:00:00.000Z",
         "dateInput": "2024-06-03",
         "dateShort": "03/06/24",
@@ -5437,7 +5437,7 @@ var allBills = [
     },
     {
         "_id": "670ecbdc4912bdc41bb7d2c8",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2024-09-27T03:00:00.000Z",
         "dateInput": "2024-09-27",
         "dateShort": "27/09/24",
@@ -5449,7 +5449,7 @@ var allBills = [
     },
     {
         "_id": "6510790d8f34a3393ee77634",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2025-09-21T03:00:00.000Z",
         "dateInput": "2025-09-21",
         "value": 500,
@@ -5461,7 +5461,7 @@ var allBills = [
     },
     {
         "_id": "6510790d8f34a3393ee77634",
-        "debtorId": "651076892d6dc8965754121a",
+        "debtorId": "line",
         "date": "2025-11-27T03:00:00.000Z",
         "dateInput": "2025-11-27",
         "value": 500,
